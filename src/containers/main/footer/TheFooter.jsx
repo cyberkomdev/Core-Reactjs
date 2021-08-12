@@ -98,7 +98,7 @@ const TheFooter = ()=> {
                     <img src={ImageAboutRight} alt="image-left" className="w-full"/>
                 </div>
 
-                <div className="w-full border border-scheme-gold_light rounded-lg bg-scheme-primary_light p-4 relative">
+                <div className="w-full  border-scheme-gold_light rounded-lg bg-scheme-primary_light p-4 relative">
                     <div className="w-full block relative text-center mb-4">
                         <h3 className="font-bold text-scheme-gold text-2xl">WELCOME TO THE ASTON CASINO</h3>
                     </div>

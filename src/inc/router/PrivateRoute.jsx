@@ -10,12 +10,14 @@ const PrivateRoute = ({component: Component, Auth, ...rest}) => {
             {...rest}
             history={createBrowserHistory}
             render={(props) => {
-                return !Auth.loading ?
-                    Auth.isAuthenticated && Auth.token !== null ?
-                        (
+                return (
+                    // !Auth.loading ?
+                    // Auth.isAuthenticated && Auth.token !== null ?
+                    //     (
                             <Component {...props}/>
-                        ) : <Redirect to="/login"/>
-                    : <p>Loading... </p>
+                        // ) : <Redirect to="/login"/>
+                    // : <p>Loading... </p>
+                )
             }}
         />
 

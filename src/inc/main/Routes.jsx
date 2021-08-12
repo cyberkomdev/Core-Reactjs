@@ -5,14 +5,17 @@ import Login from "../../containers/pages/login/Login";
 import TheContent from "../../containers/main/content/TheContent";
 import PrivateRoute from "../router/PrivateRoute";
 import LayoutRegister from "../../containers/pages/auth/register/LayoutRegister";
+import MainUsers from "../../containers/dashboard/users";
 
 
 const Routes = ()=> {
+
     return(
         <div className="w-full bg-white min-h-screen">
             <Switch>
                 <Route path={'/login'} name="Login" component={Login}/>
                 <Route path={'/register'} name="Register" component={LayoutRegister}/>
+                <Route path={'/user'} name="user dashboard" render={(props)=> <MainUsers {...props}/> }/>
                 <Route path={'/'} name="Dashboard" render={(props)=> <TheContent {...props}/>}/>
             </Switch>
         </div>

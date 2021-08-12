@@ -72,7 +72,13 @@ const colors = {
             "blue-light": "#53bdf5",
             "blue-dark": "#338cbc",
         },
-
+        "dashboard":{
+            "primary": "#13161b",
+            "secondary": "#222632",
+            "cards":"#2f3540",
+            "cards-light":"#4c505e",
+            "blue-light":"#15ffff"
+        }
     },
 }
 module.exports = {
