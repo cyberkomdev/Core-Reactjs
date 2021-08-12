@@ -1,0 +1,14 @@
+.hover-opacity{
+
+  >div {
+    opacity:0;
+    transition:0.2s;
+  }
+  &:hover{
+
+    > div {
+      transition:0.2s;
+      opacity: 1;
+    }
+  }
+}

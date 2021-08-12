@@ -1,0 +1,21 @@
+/**
+ * @author - Yudi
+ */
+
+/*
+ * ----------------------------------------------
+ * TABLE OF CONTENT
+ * ----------------------------------------------
+ */
+
+@import "normalize/normalize";
+@import "component/card";
+@import "settings/default";
+@import "site-variable/default";
+
+@tailwind base;
+@tailwind components;
+@tailwind screens;
+@tailwind utilities;
+
+
