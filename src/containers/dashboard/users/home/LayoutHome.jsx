@@ -6,7 +6,7 @@ import HeadingDashboard from "../../../../component/heading/HeadingDashboard";
 const LayoutHome = ()=> {
     return(
         <div className="w-full">
-            <HeadingDashboard title={'Home'}/>
+            <HeadingDashboard title={'Home'} desc={'Lorem ipsum dolor sit amet'}/>
         </div>
     )
 }

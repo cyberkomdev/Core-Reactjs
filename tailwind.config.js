@@ -22,6 +22,7 @@ const colors = {
             "400-accent": "#ffd600",
         },
         "cyan":{
+            "default": "#00bcd4",
             "50": "#00bcd4",
             "100": "#b2ebf2",
             "200": "#80deea",
