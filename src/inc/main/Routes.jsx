@@ -2,11 +2,8 @@ import React, {Fragment} from 'react'
 import {connect} from 'react-redux'
 import {Switch, Route} from 'react-router-dom'
 import Login from "../../containers/pages/login/Login";
-import TheContent from "../../containers/main/content/TheContent";
 import PrivateRoute from "../router/PrivateRoute";
 import LayoutRegister from "../../containers/pages/auth/register/LayoutRegister";
-import MainUsers from "../../containers/dashboard/users";
-
 
 const Routes = ()=> {
 
@@ -15,8 +12,6 @@ const Routes = ()=> {
             <Switch>
                 <Route path={'/login'} name="Login" component={Login}/>
                 <Route path={'/register'} name="Register" component={LayoutRegister}/>
-                <Route path={'/user'} name="user dashboard" render={(props)=> <MainUsers {...props}/> }/>
-                <Route path={'/'} name="Dashboard" render={(props)=> <TheContent {...props}/>}/>
             </Switch>
         </div>
     )
